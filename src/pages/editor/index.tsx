@@ -1,11 +1,17 @@
 import React from 'react'
 import { NavBar } from '../../components/NavBar'
-import { FlexLayout } from '../../design/Layout'
+import { AppTemplate } from '../../components/AppTemplate'
+import { SideBarLeft } from '../../components/SideBarLeft'
+import { CodeDisplay } from '../../components/CodeDisplay'
 
 export const EditorPage = () => {
     return (
-        <FlexLayout>
+        <>
             <NavBar />
-        </FlexLayout>
+            <AppTemplate>
+                <SideBarLeft />
+                <CodeDisplay />
+            </AppTemplate>
+        </>
     )
 }
