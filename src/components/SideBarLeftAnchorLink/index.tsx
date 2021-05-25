@@ -34,7 +34,7 @@ export const SideBarLeftAnchorLink = ({ icon, text, url, isActive }: Props) => {
             <TextAnchor
                 style={{
                     color: `${theme.colors.white}`,
-                    fontSize: '1rem'
+                    fontSize: '.75rem'
                 }}
             >
                 {text}

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { FlexLayout } from '../../design/Layout'
-import { TextAnchor } from '../../design/Typography'
+import { TextSubTitle } from '../../design/Typography'
 import { theme } from '../../styles/theme'
 import { SideBarLeftAnchorLink } from '../SideBarLeftAnchorLink'
 
@@ -16,7 +16,7 @@ export const SideBarLeft = () => {
                 gap: '1rem'
             }}
         >
-            <TextAnchor
+            <TextSubTitle
                 style={{
                     color: `${theme.colors.white}`,
                     fontSize: '.75rem',
@@ -24,7 +24,7 @@ export const SideBarLeft = () => {
                 }}
             >
                 MENU
-            </TextAnchor>
+            </TextSubTitle>
 
             <SideBarLeftAnchorLink
                 icon="/assets/code-editor.svg"

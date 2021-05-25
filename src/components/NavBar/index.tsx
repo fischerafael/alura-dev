@@ -28,16 +28,7 @@ export const NavBar = () => {
             </FlexLayout>
 
             <FlexLayout style={{ height: '100%', width: '100%' }}>
-                <InputText
-                    placeholder="Busque por algo"
-                    style={{
-                        width: '100%',
-                        height: '3rem',
-                        borderRadius: '.5rem',
-                        background: `${theme.colors.greyBlue}`,
-                        color: `${theme.colors.white}`
-                    }}
-                />
+                <InputText placeholder="Busque por algo" />
             </FlexLayout>
 
             <FlexLayout
@@ -53,7 +44,12 @@ export const NavBar = () => {
                     alt="User Profile"
                     style={{ width: '2rem', borderRadius: '1rem' }}
                 />
-                <TextParagraph style={{ color: `${theme.colors.white}` }}>
+                <TextParagraph
+                    style={{
+                        color: `${theme.colors.white}`,
+                        fontSize: '0.75rem'
+                    }}
+                >
                     Rafael Fischer
                 </TextParagraph>
             </FlexLayout>

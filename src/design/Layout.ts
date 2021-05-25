@@ -8,7 +8,7 @@ export const FlexLayout = styled.section`
 
 export const GridLayout = styled.section`
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 `
 
 export const GridLayoutOneTwoOne = styled(GridLayout)`
